@@ -1,4 +1,4 @@
-import pytest 
+import pytest
 
 def str_to_bool(string):
     if string.lower() in ['yes', 'y', '1']:

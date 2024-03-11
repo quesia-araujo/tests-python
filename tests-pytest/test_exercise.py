@@ -11,6 +11,7 @@ def admin_command(command, sudo=True):
         return ["sudo"] + command
     return command
 
+
 class TestAdminCommand:
 
     def command(self):
